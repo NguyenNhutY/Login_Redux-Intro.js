@@ -1,0 +1,90 @@
+
+.login{
+    display: flex;
+    flex-direction:colum;
+    align-items:center;
+    height:100vh;
+    justify-content:center;
+    font-family:"Inter";
+}
+
+.login__form > input{
+    min-width:780px;
+    padding:20px 0px;
+    padding-left:15px;
+    border:1px solid rgba(0,0,0,0.24);
+    font-size:15px;
+    font-family:"Intern";
+    border-radius: 3px;
+    margin-bottom:10px;
+    outline:none;
+}
+
+.login__form > h1{
+    font-size:35px;
+    margin-bottom:15px;
+    padding-bottom:10px;
+    letter-spacing:-1px;
+    align-items:center;
+    justify-content:center;
+    display: flex;
+    flex-direction:colum;
+    color: #8d0ada;
+}
+
+.login__form{
+    display:Flex;
+    flex-direction:column;
+}
+
+.submit__btn{
+    padding:17px 30px;
+    margin-top:10px;
+    background:black;
+    border:none;
+    color:white;
+    font-size:14px;
+    font-family:"Inter";
+    border-radius:3px;
+    cursor: pointer;
+}
+.login__form > input:hover{
+    border-color:#8d0ada;
+}
+.login__form > input:active{
+    background-color:#ccc;
+}
+.submit__btn:hover{
+    opacity: 0.7;
+
+}
+input-container {
+  position: relative;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
+}
+
+.password-feedback {
+  margin-top: 10px;
+}
+
+.password-feedback p {
+  display: flex;
+  align-items: center;
+}
+
+.valid {
+  color: green;
+  margin-right: 5px;
+}
